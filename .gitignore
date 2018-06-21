@@ -1,3 +1,5 @@
+*.iml
+.idea
 ci/credentials.yml
 .DS_Store
 target
