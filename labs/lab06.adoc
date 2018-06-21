@@ -84,10 +84,7 @@ jobs:
 +
 [source,bash]
 ---------------------------------------------------------------------
-- put: cloudfoundry
-  params:
-    manifest: git-assets/manifest.yml
-    path: app-output/concourse-demo.jar
+$ fly -t gcp set-pipeline -p pipeline-<LASTNAME> -c ci/pipeline.yml -l ci/credentials.yml
 ---------------------------------------------------------------------
 
 . If you refresh the Concourse web UI you'll note the resource output of _cloudfoundry_ has been added.
