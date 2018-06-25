@@ -52,7 +52,7 @@ Modularize Tasks and Link Multiple Jobs
         set -xe
 
         cd git-assets
-        ./mvnw test
+        mvn test
 
 6.  Create similar artifacts for the packaging stage of your application
     build:
@@ -83,7 +83,7 @@ Modularize Tasks and Link Multiple Jobs
         set -xe
 
         cd git-assets
-        ./mvnw package
+        mvn package
         cp target/concourse-demo-*.jar ../app-output/concourse-demo.jar
 
 7.  We need to make sure our bash scripts are executable. Execute the

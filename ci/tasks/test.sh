@@ -3,4 +3,4 @@
 set -xe
 
 cd git-assets
-./mvnw test
+mvn test

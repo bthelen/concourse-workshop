@@ -3,5 +3,5 @@
 set -xe
 
 cd git-assets/
-./mvnw package
+mvn package
 cp target/concourse-demo-*.jar ../app-output/concourse-demo.jar

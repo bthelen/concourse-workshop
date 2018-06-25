@@ -61,7 +61,7 @@ run:
 set -xe
 
 cd git-assets
-./mvnw test
+mvn test
 ---------------------------------------------------------------------
 
 . Create similar artifacts for the packaging stage of your application build:
@@ -97,7 +97,7 @@ _ci/tasks/package.sh_
 set -xe
 
 cd git-assets
-./mvnw package
+mvn package
 cp target/concourse-demo-*.jar ../app-output/concourse-demo.jar
 ---------------------------------------------------------------------
 
