@@ -1,3 +1,3 @@
 FROM maven
 
-COPY settings.xml /usr/share/maven/ref/
+COPY settings.xml /root/.m2/
