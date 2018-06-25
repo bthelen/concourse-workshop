@@ -43,7 +43,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: openjdk
+    repository: bthelenpivotal/maven
 
 inputs:
 - name: git-assets
@@ -76,7 +76,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: openjdk
+    repository: bthelenpivotal/maven
 
 inputs:
 - name: git-assets

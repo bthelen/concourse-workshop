@@ -36,7 +36,7 @@ Modularize Tasks and Link Multiple Jobs
         image_resource:
           type: docker-image
           source:
-            repository: openjdk
+            repository: bthelenpivotal/maven
 
         inputs:
         - name: git-assets
@@ -65,7 +65,7 @@ Modularize Tasks and Link Multiple Jobs
         image_resource:
           type: docker-image
           source:
-            repository: openjdk
+            repository: bthelenpivotal/maven
 
         inputs:
         - name: git-assets
