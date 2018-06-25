@@ -8,13 +8,7 @@
     <offline/>
     <pluginGroups/>
     <servers/>
-    <mirrors>
-        <mirror>
-            <id>ibiblio.net</id>
-            <url>http://www.ibiblio.net/pub/packages/maven2</url>
-            <mirrorOf>central</mirrorOf>
-        </mirror>
-    </mirrors>
+    <mirrors/>
     <proxies/>
     <profiles/>
     <activeProfiles>
