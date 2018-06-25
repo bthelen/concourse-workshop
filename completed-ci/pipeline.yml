@@ -3,7 +3,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/azwickey-pivotal/concourse-workshop
+    uri: https://github.com/bthelen/concourse-workshop
 - name: cloudfoundry
   type: cf
   source:
